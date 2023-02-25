@@ -1,6 +1,7 @@
 module Main (main) where
 
-import qualified Lib
+import qualified Task1
 
 main :: IO ()
-main = Lib.someFunc
+main = putStrLn ( Task1.repeatEachPrelude ("abc", 0) )
+--- main = putStrLn ( ["1", "2", "3"] )
